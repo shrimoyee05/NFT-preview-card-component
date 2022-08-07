@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .equi_para2 {
+  display: inline-block;
+/* }  */
+
+.equi_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* .equilibrium_div {
+  max-width: 400px;
+}*/
+.ethvaleandtime {
+  /* width: inherit; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 25px;
+  color: hsl(178, 100%, 50%);
+  font-size: 15px;
+}
+
+/*
+.equi_image {
+  height: 50%;
+  width: 100%;
+} 
+*/
+
+.equi_main {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  width: 100vw;
+}
+.equilibrium_div {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 300px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 20px 20px 0px;
+  flex-direction: column;
+  font-size: 12px;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+  font-weight: lighter;
+
+  /* box-shadow: 0px 30px 20px 20px hsl(215, 51%, 70%), 0px 40px 20px 50px red; */
+  box-shadow: 0px 30px 0px 20px rgba(9, 18, 31, 40%),
+    0px 30px 0px 50px rgba(9, 18, 31, 15%);
+}
+
+.equi_image {
+  height: 50%;
+  width: 100%;
+  /* padding: 10px; */
+  border-radius: 10px;
+}
+.equi_h1 {
+  align-self: flex-start;
+  color: hsl(0, 0%, 100%);
+  font-size: 2em;
+  padding-top: 20px;
+  font-weight: 600;
+  /* font-weight: lighter; */
+}
+.equi_para {
+  font-size: 18px;
+  color: hsl(220, 15%, 55%);
+  padding-top: 20px;
+  font-weight: 400;
+}
+.ethtime {
+  color: hsl(220, 15%, 55%);
+}
+.avatar {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  gap: 20px;
+}
+.avatarimage {
+  height: 40%;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+.equi_para_bottom {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(220, 15%, 55%);
+}
+.htext {
+  color: white;
+}
+
+.hrule {
+  margin-top: 30px;
+  /* border: 1px; */
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: hsl(215, 32%, 27%);
+  height: 0px;
+}
+
+.ethvalue,
+.ethtime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-weight: 300;
+}
